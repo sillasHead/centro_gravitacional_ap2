@@ -7,7 +7,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class avaliacao_v1 {
+public class CentroGravitacional {
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
         
