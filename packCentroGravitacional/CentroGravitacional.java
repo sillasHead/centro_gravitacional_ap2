@@ -1,4 +1,4 @@
-
+package packCentroGravitacional;
 /**
  * avaliacao
  */
@@ -12,7 +12,7 @@ public class CentroGravitacional {
     public static void main(String[] args) throws FileNotFoundException, IOException {
         
 
-        FileReader arquivo = new FileReader("entrada.txt");
+        FileReader arquivo = new FileReader("packCentroGravitacional/entrada.txt");
         BufferedReader ler = new BufferedReader(arquivo);
 
         String entradas = ler.readLine();
@@ -26,7 +26,7 @@ public class CentroGravitacional {
         //         m[i][j] = Math.ceil(Math.random() * 10) / 10;
         //     }
         // } 
-
+        ler.close();
         double[][] m = {{0.1, 0.2, 0.1, 0.2, 0.1},
                         {0.1, 0.2, 0.3, 0.1, 0.1},
                         {0.2, 0.3, 0.1, 0.1, 0.3},
