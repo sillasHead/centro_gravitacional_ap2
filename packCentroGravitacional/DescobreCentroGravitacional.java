@@ -1,3 +1,5 @@
+package packCentroGravitacional;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -11,7 +13,7 @@ import java.util.Scanner;
      * 
      */
 
-public class DescobreCentroGravitacional {
+public class centroGravitacionalMain {
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
 
